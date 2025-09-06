@@ -47,9 +47,11 @@ main {
     transition: all 0.5s;
 }
 
-.box:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+@media (hover: hover) {
+    .box:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
 }
 
 .box1 {
